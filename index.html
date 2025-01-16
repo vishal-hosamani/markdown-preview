@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <script src="app.js" charset="utf-8" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <title>Markdown preview</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div id="editor-desc"><p>Enter your text here<button id="rotate"><i class="fas fa-sync-alt"></i></button><button id="trash"><i class="fas fa-trash"></i></button><button id="editor-btn"><i id="expand-editor" class="fas fa-expand"></i></button></p></div>
+            <textarea id="editor">
+            </textarea>
+        </section>
+        <section>
+            <div id="preview-desc"><p>View the markdown<button id="preview-btn"><i id="expand-preview" class="fas fa-expand"></i></button></p></div>
+            <div id="preview">
+
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
