@@ -1,16 +1,10 @@
 # Markdown Previewer
 
 ## Sections
- - [DEMO](#demo)
  - [FEATURES](#features)
  - [TECHNOLOGIES USED](#technologies-used)
  - [DETAILS](#details)
 
-## Demo
-<div style="display: flex;flex-wrap:wrap; padding: 30px;">
-<img alt="demo" style="margin: 20px; padding: 20px;width: 600px" src="./img/demo1.png">
-<img alt="demo" style="margin: 20px; padding: 20px;width: 600px" src="./img/demo2.png">
-</div>
 
 ## Features
 - Mobile friendly
